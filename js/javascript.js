@@ -20,4 +20,33 @@ const navSlide = ()=>{
     });
 }
 
+//function table
+
+const ShowNotes2 = ()=>{
+    const button = document.querySelector('button');
+    const nav = document.querySelector('.wrap');
+    
+
+    button.addEventListener('click', ()=> {
+        //Toggle Nav
+        nav.classList.toggle('active');
+      
+        //Burger Animation
+        //burger.classList.toggle('toggle');
+    });
+}
+
+ShowNotes2();
+
+
+function showNotes(){
+    var x = document.getElementById("TableShowNotes");
+    if(x.style.display === "none"){
+        x.style.display = "inline-block";
+    }
+    else{
+        x.style.display = "none"
+    }
+}
+
 navSlide();

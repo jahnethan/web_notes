@@ -53,37 +53,45 @@
                             <br>
                             <input type="text" id="email-text" name="search-notes" placeholder="example@example.com">
                             <br>
+                            <!--<button type="button" name="search-notes" onclick="showNotes()">Mostrar Notas</button>-->
                             <button type="button" name="search-notes">Mostrar Notas</button>
                         </p>
                     
                 </form>
             </div>    
-            <br><br><hr><br><br>
-            <table>
-                <thead>
-                    <tr>
-                        <th class="align-start">Nombre de Alumno</th>
-                        <th class="align-start">Nota Trabajo 1</th>
-                        <th class="align-start">Nota Trabajo 2</th>
-                        <th class="align-start">Nota Trabajo 3</th>
-                        <th class="align-start">Nota Final</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td data-label="Nombre de Alumno"><span>Jonathan Vasquez</span></td>
-                        <td data-label="Nota Trabajo 1"><span>20</span></td>
-                        <td data-label="Nota Trabajo 2"><span>20</span></td>
-                        <td data-label="Nota Trabajo 3" ><span>20</span></td>
-                        <td data-label="Nota Final"><span>20</span></td>
-                    </tr>
-                    
-                </tbody>
+            <br><br><hr><br><br><br><br>
 
-            </table>
+            <div class="wrap">
+                <div class="content">
+                    <table class="table-container" id="TableShowNotes">
+                        <thead>
+                            <tr>
+                                <th class="align-start">Nombre de Alumno</th>
+                                <th class="align-start">Nota Trabajo 1</th>
+                                <th class="align-start">Nota Trabajo 2</th>
+                                <th class="align-start">Nota Trabajo 3</th>
+                                <th class="align-start">Nota Final</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Nombre de Alumno"><span>Jonathan Vasquez</span></td>
+                                <td data-label="Nota Trabajo 1"><span>20</span></td>
+                                <td data-label="Nota Trabajo 2"><span>20</span></td>
+                                <td data-label="Nota Trabajo 3" ><span>20</span></td>
+                                <td data-label="Nota Final"><span>20</span></td>
+                            </tr>
+                            
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
             <br><br><br><br>
         </article>
     </section>
+
+
 
     <footer class="footer-distributed">
 		<div class="footer-right">
